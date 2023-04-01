@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+
+  .text__1{
+    color: #FFFFFF;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .rectangles_1{
+    margin-right: 25px;
+    margin-left: 35px;
+    margin-bottom: 25px;
+  }
+
+  .rectangles_2{
+    margin-right: 25px;
+    margin-bottom: 25px;
+  }
+
+  .rectangles_3{
+    margin-right: 25px;
+    margin-bottom: 25px;
+  }
+
+  .rectangles_4{
+    margin-right: 25px;
+    margin-bottom: 25px;
+  }
+
+  .rectangles_5{
+    margin-right: 25px;
+    margin-bottom: 25px;
+  }
+
+  .rectangles_6{
+    margin-right: 25px;
+    margin-bottom: 25px;
+  }
+
+  .rectangles_7{
+    margin-right: 25px;
+    margin-left: 35px;
+  }
+
+  .rectangles_8{
+    margin-right: 25px;
+  }
+
+  .rectangles_9{
+    margin-right: 25px;
+  }
+
+  .rectangles_10{
+    margin-right: 25px;
+  }
+
+  .rectangles_11{
+    margin-right: 25px;
+  }
+
+  .rectangles_12{
+    margin-right: 25px;
+  }
+
+  .container {
+    max-width: 1440px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  body {
+    background: #E5E5E5;
+    font-family: 'Roboto';
+  }
+  
+  .main__content-title {
+    color: #000000;
+    text-align: center;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 36px;
+    padding-top: 80px;
+  }
+  
+  .main__content-title-block {
+    color: #A0A0A0;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+    padding: 23px 200px 23px 200px;
+  }
+  
+  .img {
+    text-align: center;
+  }
+  
+  .info__block {
+    color: #000000;
+    font-family: 'Roboto';
+    text-align: center;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 36px;
+    padding-top: 38px;
+  }
+  
+  .info__block-title {
+    color: #A0A0A0;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+    padding: 23px 205px 80px 205px;
+  }
+  
+  @media (max-width: 650px) {
+    .main__content {
+      box-orient: vertical;
+      box-direction: normal;
+      flex-direction: column;
+      flex-direction: column;
+    }
+    .main__content-title {
+      text-align: center;
+    }
+    .main__content-title-block {
+      text-align: center;
+    }
+    .img {
+      width: 300px;
+      height: 250px;
+    }
+    .info__block {
+      text-align: center;
+    }
+    .info__block-title {
+      text-align: center;
+    }
+  }
